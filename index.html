@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3Schools Online Web Tutorials</title>
+
+    <link rel="stylesheet" href="styles/templates.css">
+    <link rel="stylesheet" href="styles/style.css">
+
+
+</head>
+
+<body>
+    <header id="Header">
+        <!-- navbar -->
+        <nav class="navbar w-100vw flex jcsb aic">
+
+            <!-- left section -->
+            <div class="left flex aic">
+                <!-- logo div -->
+
+                <div class="logo">
+                    <img src="assets/logo.svg" alt="logo">
+                </div>
+                <!-- nav items -->
+
+                <div class="nav-items flex">
+                    <a href="" class="item">Tutorials
+                        <i class="fa fa-caret-down"></i>
+                    </a>
+
+                    <a href="" class="item">Exercises
+                        <i class="fa fa-caret-down"></i>
+                    </a>
+
+                    <a href="" class="item">Certificates
+                        <i class="fa fa-caret-down"></i>
+                    </a>
+
+                    <a href="" class="item">Services
+                        <i class="fa fa-caret-down"></i>
+                    </a>
+                </div>
+                
+                <div class="nav-items nav-items-small">
+                    <a href="" class="item">Menu
+                    <i class="fa fa-caret-down"></i></a>
+                </div>
+
+                <!-- search bar -->
+                <div class="flex aic searchCont">
+                    <div>
+                        <input type="search" id="SearchInput" placeholder="Search...">
+                    </div>
+
+                    <div class="searchIcon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+                
+                <div class="searchIcon searchIcon-media">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <a>
+                    <i class="fa-solid fa-circle-half-stroke"></i>
+                </a>
+            </div>
+
+            <!-- right section -->
+            <div class="right flex aic">
+                <div class="rightItem"><i class="fa-solid fa-briefcase" style="color: #9763f6;"></i><span>Jobs</span>
+                </div>
+                <div class="rightItem"><i class="fa-solid fa-code" style="color: #9763f6;"></i><span>Spaces</span>
+                </div>
+                <div class="rightItem hide-on-small"><i class="fa-solid fa-cart-shopping" style="color: #9763f6;"></i><span>Get
+                        Certified</span> </div>
+
+
+                <div class="sign-up">Sign Up</div>
+                <div class="log-in">Log in</div>
+            </div>
+
+        </nav>
+        <div id="CourseBar" class="flex aic">
+            <div class="course-bar-arrow leftArrow flex jcc aic">
+                <i class="fa-solid fa-angle-left" style="color: #ffffff;"></i>
+            </div>
+            <div class="course-bar-arrow rightArrow flex jcc aic">
+                <i class="fa-solid fa-angle-right" style="color: #ffffff;"></i>
+            </div>
+        </div>
+    </header>
+    <main class="main-container flex-col jcc aic">
+
+        <h1>Learn to Code</h1>
+        <h3>With the world's largest web developer site.</h3>
+
+        <div class="flex jcc aic">
+            <input type="search" placeholder="Search our tutorials, e.g. HTML">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+        <h4><a href="">Not Sure Where To Begin?</a></h4>
+    </main>
+    <svg style="background-color:#D9EEE1;" width="100%" height="70" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path id="wavepath" d="M0,0  L110,0C35,150 35,0 0,100z" fill="#282A35"></path>
+    </svg>
+
+
+    <!-- (html section) -->
+    <section class="section-container html-container">
+        <div class="section-desc html-desc">
+            <h2>HTML</h2>
+            <p>The language for building web pages</p>
+
+            <div class="btn"><a>Learn HTML</a></div>
+            <div class="btn"><a>Video tutorial</a></div>
+            <div class="btn"><a>HTML reference</a></div>
+            <div class="btn"><a>Get Certified</a></div>
+
+        </div>
+
+        <div class="section-code">
+            <h3>HTML Example:</h3>
+
+            <div class="section-code-content">
+                <code style="color: brown; font-size: 15px;">
+                    <span><</span>!DOCTYPE <span style="color: red;">html</span><span>></span><br>
+                    <span><</span>html<span>></span><br><span><</span>head<span>></span><br>
+                    <span><</span>title<span>></span><span class="code-cont">HTML Tutorial</span><span><</span>/title<span>></span><br><span><</span>/head<span>></span><br>
+                    <span><</span>body<span>></span><br><br>
+                    <span><</span>h1<span>></span><span class="code-cont">This is a heading</span><span><</span>/h1<span>></span><br>
+                    <span><</span>p<span>></span><span class="code-cont">This is a paragraph.</span><span><</span>/p<span>></span><br><br>
+                    <span><</span>/body<span>></span><br>
+                    <span><</span>/html<span>></span><br><br>
+                </code>
+            </div>
+            <button class="btn w3-green">Try it Yourself</button>
+
+        </div>
+    </section>
+
+    <!-- (css section) -->
+
+    <section class="section-container css-container">
+
+        <div class="section-desc css-desc">
+            <h2>CSS</h2>
+            <p>The language for styling web pages</p>
+
+            <div class="btn"><a>Learn CSS</a></div>
+            <div class="btn"><a>CSS reference</a></div>
+            <div class="btn"><a>Get Certified</a></div>
+        </div>
+
+        <div class="section-code">
+            <h3>CSS Example:</h3>
+            <div class="section-code-content">
+                <code style="color: red; font-size: 15px;">
+                    <span style="color: brown;">body</span> <span style="color: black;">{</span><br>
+                        &nbsp; background-color: <span style="color: mediumblue;">lightblue</span>;<br><span style="color: black;">}</span><br><br>
+                        <span style="color: brown;">h1</span> <span style="color: black;">{</span><br>
+                        &nbsp; color: <span style="color: mediumblue;">white</span>;<br>
+                        &nbsp; text-align: <span style="color: mediumblue;">center</span>;<br><span style="color: black;">}</span><br><br><span style="color: brown;">p</span> <span style="color: black;">{</span><br>&nbsp; font-family: <span style="color: mediumblue;">verdana</span>;<br><span style="color: black;">}</span>
+                </code>
+            </div>
+            <button class="btn w3-green">Try it Yourself</button>
+
+        </div>
+    </section>
+
+    <!-- (js section) -->
+
+    <section class="section-container js-container">
+
+        <div class="section-desc js-desc">
+            <h2>JavaScript</h2>
+            <p>The language for programming web pages</p>
+
+            <div class="btn"><a>Learn JavaScript</a></div>
+            <div class="btn"><a>JS reference</a></div>
+            <div class="btn"><a>Get Certified</a></div>
+        </div>
+
+        <div class="section-code">
+            <h3 style="color: black;">JS Example:</h3>
+            <div class="section-code-content">
+                <code style="color: black; font-size: 15px;">
+                    <span style="color: mediumblue;"><</span><span style="color: brown;">button</span> <span style="color: red;">onclick</span>
+                    =<span style="color: mediumblue;">&quot;myFunction()&quot;</span><span style="color: mediumblue;">></span>Click Me! <br> <span style="color: mediumblue;"><</span><span style="color: brown;">/button</span><span style="color: mediumblue;">></span><br><br>
+                    <span style="color: mediumblue;"><</span><span style="color: brown;">script</span><span style="color: mediumblue;">></span><br>
+                    <span style="color: mediumblue;">function</span>
+                    myFunction() {<br>
+                    &nbsp; <span style="color: mediumblue;">let</span>
+                    x = document.getElementById(&quot;demo&quot;);<br>
+                &nbsp; x.style.fontSize = &quot;25px&quot;; <br>
+                &nbsp; x.style.color = &quot;red&quot;; <br>}<br>
+                <span style="color: mediumblue;"><</span><span style="color: brown;">/script</span><span style="color: mediumblue;">></span>
+                </code>
+            </div>
+            <button class="btn w3-green">Try it Yourself</button>
+
+        </div>
+    </section>
+    
+    <!-- python section -->
+
+    <section class="section-container py-container">
+
+        <div class="section-desc py-desc">
+            <h2>Python</h2>
+            <p>A popular programming language</p>
+
+            <div class="btn"><a>Learn Python</a></div>
+            <div class="btn"><a>Python reference</a></div>
+            <div class="btn"><a>Get Certified</a></div>
+        </div>
+
+        <div class="section-code">
+            <h3 style="color: black;">Python Example:</h3>
+            <div class="section-code-content" style="min-height: 190px;">
+                <code style="color: black; font-size: 15px;">
+                    <span style="color: mediumblue;">if</span>
+                    <span style="color: red;">5</span>
+                    &gt; <span style="color: red;">2</span>
+                    :<br>&nbsp; print(<span style="color: brown;">"Five is greater than two!"</span>
+                    )
+                </code>
+            </div>
+            <button class="btn w3-green">Try it Yourself</button>
+        </div>
+    </section>
+
+    <!-- sql section -->
+
+    <section class="section-container sql-container">
+
+        <div class="section-desc sql-desc">
+            <h2>SQL</h2>
+            <p>A popular programming language</p>
+
+            <div class="btn"><a>Learn SQL</a></div>
+            <div class="btn"><a>SQL reference</a></div>
+            <div class="btn"><a>Get Certified</a></div>
+        </div>
+
+        <div class="section-code">
+            <h3 style="color: black;">SQL Example:</h3>
+            <div class="section-code-content" style="min-height: 190px;">
+                <code style="color: black; font-size: 15px;">
+                    <span style="color: mediumblue;">SELECT</span>
+ * <span style="color: mediumblue;">FROM</span>
+ Customers<br>
+ <span style="color: mediumblue;">WHERE</span>
+ Country= <span style="color: mediumblue;">'Mexico'</span>;
+                </code>
+            </div>
+            <button class="btn w3-green">Try it Yourself</button>
+        </div>
+    </section>
+
+    <!-- courseCards section -->
+
+    <section id="courseCards" class="flex jcc aic">
+        <!-- sample html
+        <div class="course-card-item">
+            <h2>PHP</h2>
+            <p>A web server programming language </p>
+            <button class="btn">Learn PHP</button>
+        </div> -->
+    </section>
+
+    <section class="midCourses flex jcc aic">
+        <div class="mid-courses-card" style="background-color: #FFC0C7;">
+            <h2>C</h2>
+        </div>
+        <div class="mid-courses-card" style="background-color: #FFF4A3;">
+            <h2>C++</h2>
+        </div>
+        
+    </section>
+
+    <section id="otherCourses" class="flex jcc aic">
+        <!-- sample card.
+
+        <div class="card">
+            Kotlin
+        </div> -->
+    </section>
+
+    <section class="midCourses flex jcc aic">
+        <div class="mid-courses-card" style="background-color: #96D4D4;">
+            <h2>EXCEL</h2>
+        </div>
+        <div class="mid-courses-card" style="background-color: #FFF4A3;">
+            <h2>Google Sheets</h2>
+        </div>
+        
+    </section>
+
+    <section class="midCourses flex jcc aic">
+        <div class="mid-courses-card" style="background-color: #FFC0C7;">
+            <h2>Machine Learning</h2>
+        </div>
+        <div class="mid-courses-card" style="background-color: #F3ECEA;">
+            <h2>Artificial Intelligence</h2>
+        </div>
+        
+    </section>
+
+    <section class="code-editor-section flex-col jcc aic">
+        <h2>
+            Code Editor
+        </h2>
+        <p>
+            With our online code editor, you can edit code and view the result in your browser
+        </p>
+
+        <div class="code-editor">
+            <div class="editor-menu-bar flex aic">
+
+                <div class="menu-bar-controls flex aic">
+                    <div style="background-color: #ED594A;"></div>
+                    <div style="background-color: #FDD800;"></div>
+                    <div style="background-color: #5AC05A;"></div>
+                </div>
+
+                <div>
+                    www.w3schools.com/tryit/
+                </div>
+
+            </div>
+
+            <div class="flex">
+                <button class="theme-control" style="background-color: #E7E9EB;">Frontend</button>
+                <button class="theme-control">Backend</button>
+            </div>
+
+            <img 
+            src="assets/frontendGif.gif" 
+            width="100%"
+            alt="Frontend Code Editor">
+            <img 
+            src="assets/backendGif.gif" 
+            width="100%"
+            style="display: none;"
+            alt="Backend Code Editor">
+        </div>
+
+        <div class="code-editor-section-buttons">
+            <button style="background-color: #04AA6D;color: white;">Try Frontend Editor (HTML/CSS/JS)</button><br>
+            <button style="background-color: #FFF4A3;">Try Backend Editor (Python/PHP/Java/C..)</button>
+        </div>
+    </section>
+
+    <section class="prefinal-sec flex-col jcc aic">
+        <h2>
+            W3Schools Spaces
+        </h2>
+        <p>
+            If you want to create your own website, check out <a style="color: #FFC0C7;">W3Schools Spaces</a>.
+        </p>
+        <p>
+            It is free to use, and does not require any setup:
+        </p>
+        <img src="assets/prefinalsecGIF.gif" 
+        style="margin-bottom: 55px; margin-top: 20px;width: min(90vw, 1000px)"
+        alt="prefinalsecGIF" >
+
+        <img src="assets/howitworksPNG.png"
+        style="margin-bottom: 55px; margin-top: 20px;width:min(90vw, 1000px)"
+        
+        alt="howitworksPNG" >
+
+        <div><button class="btn w3-green">Learn Stuff</button></div>
+        
+    </section>
+    
+    <section class="my-learning-section flex-col jcc aic">
+        <h2>My Learning</h2>
+        <p>Track your progress with our <b>free</b> "My Learning" program.</p>
+        <p>Log in to your account, and start earning points!
+        </p>
+        <img src="assets/mylearningPNG.png"
+        style="margin: 30px 0;width:min(90vw, 1000px)"
+        alt="">
+        <div><button class="btn w3-green">Sign Up for free</button></div>
+    </section>
+
+    <section class="color-picker-section">
+        <h2>Color Picker</h2>
+        <p>W3Schools' famous color picker:</p>
+        <img src="assets/colorPickerPNG.png"
+        width="200px"
+        style="margin-top: 20px;"
+        alt="color picker img">
+    </section>
+
+    <section class="code-game-section">
+        <h2>Code Game</h2>
+        <p>Help the Lynx collect pine cones!</p>
+        <img src="assets/codeGamePNG.png"
+        width="150px"
+        alt="code game">
+        <div><button class="btn">Play Game</button></div>
+    </section>
+
+    <!-- <section class="web-template-section">
+        <h2>Exercises and Quizzes</h2>
+        <p>Test your skills</p>
+        <div>
+        <div class="box">
+            Exercises
+        </div>
+        <div class="box box1">
+            Quizzes
+        </div>
+        </div>
+        
+    </section> -->
+
+    <footer>
+        <nav class="footer-nav flex">
+            <div class="logo jcc">
+                <img src="assets/footerLogo.svg" 
+                style="transform: scale(1.3);"
+                alt="logo">
+            </div>
+
+            <ul class="footer-navlist flex">
+                <li><a href="">SPACES</a></li>
+                <li><a href="">UPGRADE</a></li>
+                <li><a href="">NEWS LETTER</a></li>
+                <li><a href="">GET STARTED</a></li>
+                <li><a href="">RESOURCES</a></li>
+            </ul>
+        </nav>
+
+        <div class="footer-links-container flex">
+
+        </div>
+
+        <div class="social-media flex">
+            <div><i class="fa-brands fa-square-facebook fa-lg"></i></div>
+            <div><i class="fa-brands fa-discord fa-lg"></i></div>
+            <div><i class="fa-brands fa-linkedin fa-lg"></i></div>
+            <div><i class="fa-brands fa-instagram fa-lg"></i></div>
+            <span>FORUM</span>
+            <span>ABOUT</span>
+        </div>
+
+        <div class="copyright-content">
+            <span>W3Schools is optimized for learning and training. Examples might be simplified to improve reading and learning.
+            </span><br>
+            <span>Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness
+            </span><br>
+            <span>of all content. While using W3Schools, you agree to have read and accepted our <a href="" style="color: white;">terms of use, cookie and privacy policy.</a>
+            </span><br><br>
+
+            <span><a href="" style="color: white;">Copyright 1999-2023</a> by Refsnes Data. All Rights Reserved. <a href="" style="color: white;">W3Schools is Powered by W3.CSS.</a>
+            </span>
+        </div>
+    </footer>
+
+
+    
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://kit.fontawesome.com/923962bb6e.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
