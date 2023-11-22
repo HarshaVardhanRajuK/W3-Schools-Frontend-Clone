@@ -37,7 +37,7 @@ Contributions are welcome! Feel free to fork the repository and submit a pull re
 
 ## Issues and Bug Reporting
 
-If you encounter any issues or have suggestions for improvement, please open an issue on the [Issue Tracker](https://github.com/HarshaVardhanRajuK/W3-Schools-Frontend-Clone.git).
+If you encounter any issues or have suggestions for improvement, please open an issue on the [Issue Tracker](https://github.com/HarshaVardhanRajuK/W3-Schools-Frontend-Clone.git/issues).
 
 ## Acknowledgments
 
